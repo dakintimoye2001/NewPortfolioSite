@@ -3,6 +3,12 @@
 <head> 
 
     
+<link rel="stylesheet" href="main.css">
+
+
+
+
+
 </head>
 
 <body> 
@@ -11,43 +17,43 @@
 <header> 
 
 <h1> Daniel Akintimoye </h1>
-
-
 <nav> 
-
     <ul>
-    <li>  About Me </li>    
-    <li>  Projects </li>
-    <li>  Control  </li>
-    </ul>
-
+    <li><a href="#about"> About Me<a> </li>    
+    <li><a href="#projects"> Projects<a> </li>
+    <li><a href="#skills">  Skills <a>  </li>
+     <li><a href="#contact">  Contact <a> </li>
+    </ul>                                                                                                                                                                                     
 </nav>
-
-
 </header>
 
 
+<section class="second-column">
 
-<h1> About Me </h1>
 
-<p> My name is Daniel Akintimoye, and I am a aspiring SWE from California
+<div class="about-text" id="about">
+
+
+    <h1> About me </h1>
+
+
+    <p> My name is Daniel Akintimoye, and I am a aspiring SWE from California
     I am currently 24 years as of April 19, 2026. I have a degree in Computer Science and Computer Engineering, and I am currently lookin for a full stack role preferably.
 </p>
+</div>
 
-
-<div class="selfie">
-    
+<div class="selfie-image">    
     <img src="./img/4E9E10FF-4F8E-40EB-AE53-DE00E87C0A82 (1).JPG">
 </div>
 
+ 
+</section>
 
 
 
 
 
-
-
-<section class="projects"> 
+<section class="projects" id="projects"> 
 
     <h1> Projects </h1>
 
@@ -82,7 +88,7 @@
 </section>
 
 
-    <section class="skills">
+    <section class="skills" id="#skills">
 
         <svg width="500" height="220" viewBox="0 0 500 220" xmlns="http://www.w3.org/2000/svg">
   <style>
@@ -91,7 +97,9 @@
   </style>
 
   <!-- Title -->
-  <text x="20" y="30" class="title">My Skills</text>
+  <text x="50%" y="10%" text-anchor="middle" dominant-baseline="middle" class="title">
+  My Skills
+</text>
 
   <!-- Skill Boxes -->
   <rect x="20" y="50" width="140" height="40" rx="8" fill="#f7df1e"/>
@@ -115,14 +123,41 @@
         
     </section>
 
-
+  <h1 id="foot"> Contact </h1> 
 
  <footer>
     
-    <h3> Made with <svg width="100" height="100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path d="M12 21s-6.7-4.35-9.33-7.98C.91 10.56 2.2 6.5 5.64 5.4c2.1-.68 4.08.1 5.36 1.54 1.28-1.44 3.26-2.22 5.36-1.54 3.44 1.1 4.73 5.16 2.97 7.62C18.7 16.65 12 21 12 21z" fill="red"/>
-</svg>  </h3>
-in America 
+
+
+<div class="github">
+<a href="https://github.com/dakintimoye2001?tab=repositories">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12 0.5C5.73 0.5 0.75 5.7 0.75 12.1C0.75 17.2 4.01 21.5 8.58 23.1C9.15 23.2 9.35 22.8 9.35 22.5V20.4C6.4 21.1 5.8 19.1 5.8 19.1C5.3 17.8 4.5 17.5 4.5 17.5C3.4 16.8 4.6 16.8 4.6 16.8C5.8 16.9 6.4 18.1 6.4 18.1C7.5 20 9.3 19.4 10 19.1C10.1 18.3 10.4 17.7 10.7 17.4C8.4 17.1 6 16.3 6 12.6C6 11.5 6.4 10.6 7 9.9C6.9 9.6 6.6 8.5 7.1 7.1C7.1 7.1 8 6.8 10.1 8.2C10.9 8 11.9 7.9 12.8 7.9C13.7 7.9 14.7 8 15.5 8.2C17.6 6.8 18.5 7.1 18.5 7.1C19 8.5 18.7 9.6 18.6 9.9C19.2 10.6 19.6 11.5 19.6 12.6C19.6 16.3 17.2 17.1 14.9 17.4C15.3 17.8 15.6 18.6 15.6 19.7V22.5C15.6 22.8 15.8 23.2 16.4 23.1C21 21.5 24.2 17.2 24.2 12.1C24.2 5.7 19.3 0.5 12 0.5Z"/>
+</svg> 
+</a>
+
+ </div>
+
+ <div class="linked"> 
+
+<a href="https://www.linkedin.com/in/daniel-akintimoye-576893337"> 
+<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20.45 20.45H17.3V15.6C17.3 14.4 17.28 12.85 15.6 12.85C13.9 12.85 13.65 14.15 13.65 15.5V20.45H10.5V9H13.5V10.6H13.55C13.95 9.8 14.95 8.85 16.6 8.85C19.9 8.85 20.45 11.05 20.45 13.9V20.45ZM6.9 7.6C5.9 7.6 5.1 6.8 5.1 5.8C5.1 4.8 5.9 4 6.9 4C7.9 4 8.7 4.8 8.7 5.8C8.7 6.8 7.9 7.6 6.9 7.6ZM8.5 20.45H5.3V9H8.5V20.45ZM22 0H2C0.9 0 0 0.9 0 2V22C0 23.1 0.9 24 2 24H22C23.1 24 24 23.1 24 22V2C24 0.9 23.1 0 22 0Z"/>
+</svg>
+</a>
+</div>
+
+<div class="email"> 
+
+<a href="mailto:pwrbuster-dakintimoye@gmail.com">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2"/>
+  <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2"/>
+</svg>
+ </a>
+
+</div>
+
 </footer>
 
 
