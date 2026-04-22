@@ -92,3 +92,13 @@ gap: 0.4rem;
 #foot {
     text-align: center;
 }
+
+
+body {
+    background-color: red;
+    color: black;
+}
+
+#opt1, #opt2, #opt3 , #wrong , #correct, #reset, #submit {
+    display: none;
+}
