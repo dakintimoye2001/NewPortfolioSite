@@ -65,6 +65,34 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: #0F172A;
+    color:#F8FAFC; 
+    min-height: 80vh;
+    width: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.proj:hover {
+    background-color: #F8FAFC;
+    color: #0F172A;
+}
+
+
+.selfie-image img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+
+    transition: filter 0.7s ease, transform 0.7s ease;
+}
+
+.selfie-image img:hover {
+    filter: brightness(50%) contrast(120%) saturate(85%);
+    transform: scale(1.03);
+}
+
+.selfie-image:hover {
 
 }
 
@@ -95,10 +123,24 @@ gap: 0.4rem;
 
 
 body {
-    background-color: red;
-    color: black;
+    background-color: #EDEDED;
+    color: #A30000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #opt1, #opt2, #opt3 , #wrong , #correct, #reset, #submit {
     display: none;
+
+    
 }
+
+nav ul li a {
+    color: #474747;
+    font-family: 1;
+    font-size: 1rem;
+}
+
+.about-text p {
+    line-height: 1.85rem;
+}
+
